@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BilliardsDemo.cpp" />
+    <ClCompile Include="Body.cpp" />
+    <ClCompile Include="BroadPhase.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="ChainDemo.cpp" />
+    <ClCompile Include="ClothDemo.cpp" />
+    <ClCompile Include="ClothMesh.cpp" />
+    <ClCompile Include="Collider.cpp" />
+    <ClCompile Include="Constraint.cpp" />
+    <ClCompile Include="ContactConstraint.cpp" />
+    <ClCompile Include="Cube.cpp" />
+    <ClCompile Include="DistanceJoint.cpp" />
+    <ClCompile Include="Domino1.cpp" />
+    <ClCompile Include="DominoDemo.cpp" />
+    <ClCompile Include="DominoPyramid.cpp" />
+    <ClCompile Include="Explosion.cpp" />
+    <ClCompile Include="Grid.cpp" />
+    <ClCompile Include="Joint.cpp" />
+    <ClCompile Include="PendulumDemo.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Manifold.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="MouseJoint.cpp" />
+    <ClCompile Include="PositionJoint.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="Physics.cpp" />
+    <ClCompile Include="Plane.cpp" />
+    <ClCompile Include="Ray.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="Line.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="Sphere.cpp" />
+    <ClCompile Include="Spring.cpp" />
+    <ClCompile Include="StackingDemo.cpp" />
+    <ClCompile Include="TestBox.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BilliardsDemo.h" />
+    <ClInclude Include="Body.h" />
+    <ClInclude Include="BroadPhase.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="ChainDemo.h" />
+    <ClInclude Include="ClothDemo.h" />
+    <ClInclude Include="ClothMesh.h" />
+    <ClInclude Include="Collider.h" />
+    <ClInclude Include="Constraint.h" />
+    <ClInclude Include="ContactConstraint.h" />
+    <ClInclude Include="Cube.h" />
+    <ClInclude Include="Demo.h" />
+    <ClInclude Include="DistanceJoint.h" />
+    <ClInclude Include="Domino1.h" />
+    <ClInclude Include="DominoDemo.h" />
+    <ClInclude Include="DominoPyramid.h" />
+    <ClInclude Include="Explosion.h" />
+    <ClInclude Include="Joint.h" />
+    <ClInclude Include="Grid.h" />
+    <ClInclude Include="PendulumDemo.h" />
+    <ClInclude Include="Manifold.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="MouseJoint.h" />
+    <ClInclude Include="PositionJoint.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="Physics.h" />
+    <ClInclude Include="Plane.h" />
+    <ClInclude Include="Ray.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="Line.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="Sphere.h" />
+    <ClInclude Include="Spring.h" />
+    <ClInclude Include="StackingDemo.h" />
+    <ClInclude Include="TestBox.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\shader.frag" />
+    <None Include="Shaders\shader.vert" />
+    <None Include="Shaders\planeShader.frag" />
+    <None Include="Shaders\planeShader.vert" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A3F0E4AC-C2F2-428B-92C0-762183E7B48F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Nitro</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(ProjectDir)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;glew32s.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>opengl32.lib;glew32s.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

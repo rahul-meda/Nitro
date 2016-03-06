@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{623c5715-f004-48e3-994b-bda0140e252a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Shaders">
+      <UniqueIdentifier>{769b9b55-2ae1-4e45-adf7-2189ad51632c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Camera">
+      <UniqueIdentifier>{99cc32aa-3fd2-4ea6-9492-e3f8660f4a4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Models">
+      <UniqueIdentifier>{79c4399c-d9c6-4155-984b-6d1faf429f19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics">
+      <UniqueIdentifier>{be3c258e-96c1-4afc-ae53-cf0c8e63499a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics\Constraints">
+      <UniqueIdentifier>{ee283a09-f22b-4f70-b73a-97cea2747789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Object">
+      <UniqueIdentifier>{adb0785f-0eb6-47b8-8423-a400447713fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene">
+      <UniqueIdentifier>{daec6157-da12-46ca-a65c-a1878a4f88f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics\BroadPhase">
+      <UniqueIdentifier>{001ba3da-73b6-4d65-9d4a-15b4053b4ce2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>Source Files\Graphics\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>Source Files\Graphics\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>Source Files\Graphics\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Body.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>Source Files\Graphics\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Manifold.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Ray.cpp">
+      <Filter>Source Files\Graphics\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="ContactConstraint.cpp">
+      <Filter>Source Files\Physics\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="Joint.cpp">
+      <Filter>Source Files\Physics\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="DistanceJoint.cpp">
+      <Filter>Source Files\Physics\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="StackingDemo.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Constraint.cpp">
+      <Filter>Source Files\Physics\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseJoint.cpp">
+      <Filter>Source Files\Physics\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="ChainDemo.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="BilliardsDemo.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="PendulumDemo.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="PositionJoint.cpp">
+      <Filter>Source Files\Physics\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="Spring.cpp">
+      <Filter>Source Files\Physics\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="ClothDemo.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>Source Files\Graphics\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="ClothMesh.cpp">
+      <Filter>Source Files\Graphics\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="TestBox.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="BroadPhase.cpp">
+      <Filter>Source Files\Physics\BroadPhase</Filter>
+    </ClCompile>
+    <ClCompile Include="DominoDemo.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="DominoPyramid.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Domino1.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Model.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>Source Files\Graphics\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Source Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>Source Files\Graphics\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>Source Files\Graphics\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Body.h">
+      <Filter>Source Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Source Files\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Source Files\Graphics\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Manifold.h">
+      <Filter>Source Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>Source Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Source Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>Source Files\Graphics\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="ContactConstraint.h">
+      <Filter>Source Files\Physics\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="Joint.h">
+      <Filter>Source Files\Physics\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="DistanceJoint.h">
+      <Filter>Source Files\Physics\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="StackingDemo.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Constraint.h">
+      <Filter>Source Files\Physics\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseJoint.h">
+      <Filter>Source Files\Physics\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="ChainDemo.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="BilliardsDemo.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="PendulumDemo.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="PositionJoint.h">
+      <Filter>Source Files\Physics\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="Spring.h">
+      <Filter>Source Files\Physics\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="ClothDemo.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>Source Files\Graphics\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="ClothMesh.h">
+      <Filter>Source Files\Graphics\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="TestBox.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="BroadPhase.h">
+      <Filter>Source Files\Physics\BroadPhase</Filter>
+    </ClInclude>
+    <ClInclude Include="DominoDemo.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="DominoPyramid.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Domino1.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\planeShader.vert">
+      <Filter>Source Files\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Shaders\planeShader.frag">
+      <Filter>Source Files\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Shaders\shader.vert">
+      <Filter>Source Files\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Shaders\shader.frag">
+      <Filter>Source Files\Graphics\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
