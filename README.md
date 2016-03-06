@@ -1,1 +1,1 @@
-[![ScreenShot](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](http://youtu.be/vt5fpE0bzSY)
+[![ScreenShot](http://img.youtube.com/vi/7jS8KC1z9hw/hqdefault.jpg)](https://www.youtube.com/watch?v=7jS8KC1z9hw)
