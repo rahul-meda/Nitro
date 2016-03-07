@@ -15,7 +15,6 @@
     <ClCompile Include="Body.cpp" />
     <ClCompile Include="BroadPhase.cpp" />
     <ClCompile Include="Camera.cpp" />
-    <ClCompile Include="ChainDemo.cpp" />
     <ClCompile Include="ClothDemo.cpp" />
     <ClCompile Include="ClothMesh.cpp" />
     <ClCompile Include="Collider.cpp" />
@@ -52,7 +51,6 @@
     <ClInclude Include="Body.h" />
     <ClInclude Include="BroadPhase.h" />
     <ClInclude Include="Camera.h" />
-    <ClInclude Include="ChainDemo.h" />
     <ClInclude Include="ClothDemo.h" />
     <ClInclude Include="ClothMesh.h" />
     <ClInclude Include="Collider.h" />
